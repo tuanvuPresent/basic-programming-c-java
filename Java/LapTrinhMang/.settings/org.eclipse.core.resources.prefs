@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/GUI/client.java=UTF-8
+encoding//src/GUI/server.java=UTF-8
+encoding//src/RMI/RMI_Client.java=UTF-8
+encoding//src/RMI/RMI_Server.java=UTF-8
+encoding//src/TCP/TCPClient.java=UTF-8
+encoding//src/TCP/TCPSever.java=UTF-8
