@@ -11,42 +11,41 @@ package demodahinhkethua;
  */
 public class NhanVien extends Person {
 
-    private int Luong;
+  private int luong;
 
-    public NhanVien() {
-    }
+  public NhanVien() {}
 
-    public NhanVien(int Luong, String HoTen, int Tuoi) {
-        super(HoTen, Tuoi);
-        this.Luong = Luong;
-    }
+  public NhanVien(int luong, String hoTen, int tuoi) {
+    super(hoTen, tuoi);
+    this.luong = luong;
+  }
 
-    public int getLuong() {
-        return Luong;
-    }
+  public int getLuong() { return luong; }
 
-    @Override
-    public int getTuoi() {
-        return super.getTuoi(); //To change body of generated methods, choose Tools | Templates.
-    }
+  @Override
+  public int getTuoi() {
+    return super.getTuoi(); // To change body of generated methods, choose Tools
+                            // | Templates.
+  }
 
-    @Override
-    public String getHoTen() {
-        return super.getHoTen(); //To change body of generated methods, choose Tools | Templates.
-    }
+  @Override
+  public String getHoTen() {
+    return super.getHoTen(); // To change body of generated methods, choose
+                             // Tools | Templates.
+  }
 
-    /**
-     *
-     */
-    @Override
-    public void Show() {
-        super.Show(); //To change body of generated methods, choose Tools | Templates.
-        System.out.println("Lýõng: " + this.Luong);
-    }
+  /**
+   *
+   */
+  @Override
+  public void show() {
+    super.show(); // To change body of generated methods, choose Tools |
+                  // Templates.
+    System.out.println("Lï¿½ï¿½ng: " + this.luong);
+  }
 
-
-    @Override
-    public void say(){
-        System.out.println("Tôi là nhân viên ");
-    }
+  @Override
+  public void say() {
+    System.out.println("Tï¿½i lï¿½ nhï¿½n viï¿½n ");
+  }
 }

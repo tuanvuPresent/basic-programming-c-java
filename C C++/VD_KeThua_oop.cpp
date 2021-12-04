@@ -2,22 +2,20 @@
 
 using namespace std;
 //============================================================================================
-class Animal{
-	public:
-		void  Hello(){
-			printf("Cac dong vat:\n");
-		}
+class Animal {
+public:
+  void hello() { printf("Cac dong vat:\n"); }
 };
 
-class Cat:public Animal{
-	public:
-		void Hello(){
-			Animal::Hello();
-			printf("Cat");
-		}
+class Cat : public Animal {
+public:
+  void hello() {
+    Animal::hello();
+    printf("Cat");
+  }
 };
-int main(){
-	Cat A;
-	A.Hello();
-	return 0;
+int main() {
+  Cat A;
+  A.hello();
+  return 0;
 }

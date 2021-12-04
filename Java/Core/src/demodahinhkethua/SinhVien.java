@@ -11,55 +11,51 @@ package demodahinhkethua;
  */
 public class SinhVien extends Person {
 
-	private String Truong;
+  private String truong;
 
-	public SinhVien() {
-	}
+  public SinhVien() {}
 
-	public SinhVien(String Truong, String HoTen, int Tuoi) {
-		super(HoTen, Tuoi);
-		this.Truong = Truong;
-	}
+  public SinhVien(String truong, String hoTen, int tuoi) {
+    super(hoTen, tuoi);
+    this.truong = truong;
+  }
 
-	@Override
-	public void setTuoi(int Tuoi) { 
-		super.setTuoi(Tuoi); // To change body of generated methods, choose Tools | Templates.
-	}
+  @Override
+  public void setTuoi(int tuoi) {
+    super.setTuoi(tuoi);
+  }
 
-	public void setTruong(String Truong) {
-		this.Truong = Truong;
-	}
+  public void setTruong(String truong) { this.truong = truong; }
 
-	@Override
-	public void setHoTen(String HoTen) {
-		super.setHoTen(HoTen); // To change body of generated methods, choose Tools | Templates.
-	}
+  @Override
+  public void setHoTen(String hoTen) {
+    super.setHoTen(hoTen);
+  }
 
-	/**
-	 *
-	 * @return
-	 */
-	@Override
-	public int getTuoi() {
-		return super.getTuoi(); // To change body of generated methods, choose Tools | Templates.
-	}
+  /**
+   *
+   * @return
+   */
+  @Override
+  public int getTuoi() {
+    return super.getTuoi(); // To change body of generated methods, choose Tools
+                            // | Templates.
+  }
 
-	@Override
-	public String getHoTen() {
-		return super.getHoTen(); // To change body of generated methods, choose Tools | Templates.
-	}
+  @Override
+  public String getHoTen() {
+    return super.getHoTen(); // To change body of generated methods, choose
+                             // Tools | Templates.
+  }
 
-	public String getTruong() {
-		return Truong;
-	}
+  public String getTruong() { return truong; }
 
-	@Override
-	public void Show() {
-		super.Show(); // To change body of generated methods, choose Tools | Templates.
-		System.out.println("Trường: " + this.Truong);
-	}
+  @Override
+  public void show() {
+    super.show(); // To change body of generated methods, choose Tools |
+                  // Templates.
+    System.out.println("Trường: " + this.truong);
+  }
 
-	public void say() {
-		System.out.println("Tôi là  sinh viên");
-	}
+  public void say() { System.out.println("Tôi là  sinh viên"); }
 }

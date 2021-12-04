@@ -11,38 +11,27 @@ package demodahinhkethua;
  */
 public class Person {
 
-	public String HoTen;
-	public int Tuoi;
+  public String hoTen;
+  public int tuoi;
 
-	public Person() {
-	}
+  public Person() {}
 
-	public Person(String HoTen, int Tuoi) {
-		this.HoTen = HoTen;
-		this.Tuoi = Tuoi;
-	}
+  public Person(String hoTen, int tuoi) {
+    this.hoTen = hoTen;
+    this.tuoi = tuoi;
+  }
 
-	public String getHoTen() {
-		return HoTen;
-	}
+  public String getHoTen() { return hoTen; }
 
-	public int getTuoi() {
-		return Tuoi;
-	}
+  public int getTuoi() { return tuoi; }
 
-	public void setHoTen(String HoTen) {
-		this.HoTen = HoTen;
-	}
+  public void setHoTen(String hoTen) { this.hoTen = hoTen; }
 
-	public void setTuoi(int Tuoi) {
-		this.Tuoi = Tuoi;
-	}
+  public void setTuoi(int tuoi) { this.tuoi = tuoi; }
 
-	public void Show() {
-		System.out.println("Họ tên: " + this.HoTen + " \nTuổi: " + this.Tuoi);
-	}
+  public void show() {
+    System.out.println("Họ tên: " + this.hoTen + " \nTuổi: " + this.tuoi);
+  }
 
-	public void say() {
-		System.out.println("Tôi là person ");
-	}
+  public void say() { System.out.println("Tôi là person "); }
 }
